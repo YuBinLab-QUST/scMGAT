@@ -128,8 +128,6 @@ y_label1=kmeans.labels_
 
 plt.figure(figsize=(8,6))
 plt.scatter(umap1[:, 0], umap1[:, 1],c=label,s=5, cmap='Spectral')
-plt.figure(figsize=(8,6))
-plt.scatter(umap1[:, 0], umap1[:, 1],c=y_label1,s=5, cmap='Spectral')
 
 
 ARI = round(metrics.adjusted_rand_score(label, y_label1),3)
