@@ -1,9 +1,4 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Mon Nov 29 10:55:40 2021
 
-@author: 哈哈双翼
-"""
 import torch
 import torch.nn as nn
 from torch.nn.modules.loss import _Loss
@@ -134,38 +129,5 @@ class BiTemperedLogisticLoss(_Loss):
             loss = loss.mean()
 
         return loss
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
