@@ -1,9 +1,5 @@
 # -*- coding: utf-8 -*-
-"""
-Created on Tue Dec 14 15:10:21 2021
 
-@author: 哈哈双翼
-"""
 import numpy as np
 from sklearn import metrics
 from munkres import Munkres
@@ -61,31 +57,5 @@ class clustering_metrics:
             " ACC            =%f \n f1_macro       =%f \n precision_macro=%f \n recall_macro   =%f \n f1_micro       =%f \n precision_micro=%f \n recall_micro   =%f \n NMI            =%f \n ADJ_RAND_SCORE =%f" % (
             acc, f1_macro, precision_macro, recall_macro, f1_micro, precision_micro, recall_micro, nmi, adjscore))
 
-#import pandas as pd
-#import torch  
-#label   = pd.read_csv("label.csv")     
-#label   = label.values
-#label   = torch.tensor(label)
-#label   = torch.squeeze(label)
-#label   = np.array(label.detach().numpy(),dtype=np.float32)
-#
-#label1   = pd.read_csv("intnmf_label1.csv")     
-#label1   = label1.values
-#label1   = torch.tensor(label1)
-#label1   = torch.squeeze(label1)
-#label1   = np.array(label1.detach().numpy(),dtype=np.float32)
-#
-#
-#model = clustering_metrics(label, label1)
-#
-#model.evaluationClusterModelFromLabel()   
-#
-#
-#hidden_emb   = pd.read_csv("umap.csv", index_col=0)       
-#hidden_emb  = np.array(hidden_emb)
-#
-#  
-#metrics.normalized_mutual_info_score(label, label_SCAI)  
-#metrics.adjusted_rand_score(label, label_SCAI)    
-    
+   
     
