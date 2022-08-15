@@ -16,3 +16,13 @@ matplotlib = 3.3.2
 ###Guiding Principles:
 
 **We provide a single-cell multi-omics dataset from the mouse brain as an example, with the preprocessed dataset in the folder. The dataset we used is available from Gene Expression Omnibus (GEO) repository number under accession: GSE140203, and the sample code for this example is GSM4156599. Other datasets are available from the corresponding numbers given in the paper.
+
+- `python = 3.6`
+- `numpy = 1.16.3`
+- `scipy = 1.4.1`
+- `pandas = 0.25.3`
+- `scikit-learn = 0.22.1`
+- `tensorflow-cpu = 1.13.1`
+- `matplotlib = 3.0.3`
+- `graphtools = 1.5.2`
+- `R = 3.6`
