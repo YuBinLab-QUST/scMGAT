@@ -1,9 +1,4 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Mon Nov 29 10:51:13 2021
 
-@author: 哈哈双翼
-"""
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
@@ -165,9 +160,4 @@ class Gat(nn.Module):
         h = self.layer2(h)
         h = F.normalize(h, p=2, dim=1)
         return h
-
-
-
-
-
 
