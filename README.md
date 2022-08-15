@@ -22,11 +22,11 @@ We provide a single-cell multi-omics dataset from the mouse brain as an example,
 ## Usage:
 
 ### Input
-The input of scMGAT should be a csv file (row: cells, col: genes).
+The input of scMGAT should be a csv file (row: cells, col: genes). You need the same number of cells and the same order of names for both omics, and the real cell labels need to be represented by characters.
 
 ### Run
 
-Run the `train.py` to train the data， the `data` is the single-cell multi-omics matrix.
+Run the `train.py` to train the data， the `data` is the single-cell multi-omics matrix. 
 
 ### out
 
