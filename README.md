@@ -34,10 +34,9 @@ Run the `train.py` to train the data， the `data` is the single-cell multi-omic
 - `outputs_jieguo.csv` The single-cell multi-omics data for combined analysis.
 
 
-## FUNDING
+## NOTICE
 
-This work was supported by the National Natural Science Foundation of China (No. 62172248), the Natural Science Foundation of Shandong Province of China (No. ZR2021MF098). 
-Conflict of interest statement. None declared.
+
 
 
 
