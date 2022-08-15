@@ -19,12 +19,6 @@ scMGAT: Improving single-cell multi-omics data analysis based on graph attention
 
 We provide a single-cell multi-omics dataset from the mouse brain as an example, with the preprocessed dataset in the folder. The dataset we used is available from Gene Expression Omnibus (GEO) repository number under accession: GSE140203, and the sample code for this example is GSM4156599. Other datasets are available from the corresponding numbers given in the paper.
 
-
-## FUNDING
-
-This work was supported by the National Natural Science Foundation of China (No. 62172248), the Natural Science Foundation of Shandong Province of China (No. ZR2021MF098). Conflict of interest statement. None declared.
-
-
 ## Usage:
 
 ### Input
@@ -36,8 +30,13 @@ Run the `train.py` to train the data， the `data` is the single-cell multi-omic
 
 ### out
 
+- `encodings.csv` The low-dimensional embedded data.
+- `outputs_jieguo.csv` The single-cell multi-omics data for combined analysis.
 
 
+## FUNDING
+
+This work was supported by the National Natural Science Foundation of China (No. 62172248), the Natural Science Foundation of Shandong Province of China (No. ZR2021MF098). Conflict of interest statement. None declared.
 
 
 
