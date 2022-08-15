@@ -22,8 +22,7 @@ We provide a single-cell multi-omics dataset from the mouse brain as an example,
 
 ## FUNDING
 
-This work was supported by the National Natural Science Foundation of China (No. 62172248), the Natural Science Foundation of Shandong Province of China (No. ZR2021MF098)
-Conflict of interest statement. None declared.
+This work was supported by the National Natural Science Foundation of China (No. 62172248), the Natural Science Foundation of Shandong Province of China (No. ZR2021MF098). Conflict of interest statement. None declared.
 
 
 
