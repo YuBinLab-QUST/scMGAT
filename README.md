@@ -15,4 +15,4 @@ matplotlib = 3.3.2
 
 ###Guiding Principles:
 
-**We only provide a single-cell multi-omics dataset as an example. The folders contain the original dataset and the preprocessed dataset, respectively. The dataset we used is available from Gene Expression Omnibus (GEO) repository number under accession: GSE140203. Other datasets are available from the corresponding numbers given in the paper.
+**We provide a single-cell multi-omics dataset from the mouse brain as an example, with the preprocessed dataset in the folder. The dataset we used is available from Gene Expression Omnibus (GEO) repository number under accession: GSE140203, and the sample code for this example is GSM4156599. Other datasets are available from the corresponding numbers given in the paper.
