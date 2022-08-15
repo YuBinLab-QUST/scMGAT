@@ -1,9 +1,4 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Tue Dec  7 10:50:38 2021
 
-@author: 哈哈双翼
-"""
 import dgl     
 import time
 import numpy as np
