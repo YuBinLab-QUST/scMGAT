@@ -36,7 +36,7 @@ Run the `train.py` to train the data， the `data` is the single-cell multi-omic
 
 ## NOTICE
 
-In the process of using, you need to adjust the data to the form of example data, and then store it in the same folder as - `train.py`. It is worth noting that - `train_gat.py` only has the graph attention network module, and its running steps are the same as above.
+In the process of using, you need to adjust the data to the form of example data, and then store it in the same folder as `train.py`. It is worth noting that `train_gat.py` only has the graph attention network module, and its running steps are the same as above.
 
 
 
