@@ -13,7 +13,7 @@ scMGAT: Improving single-cell multi-omics data analysis based on graph attention
 - `scikit-learn = 0.24.0`
 - `matplotlib = 3.3.2`
 
-### Guiding Principles:
+## Guiding Principles:
 
 **We provide a single-cell multi-omics dataset from the mouse brain as an example, with the preprocessed dataset in the folder. The dataset we used is available from Gene Expression Omnibus (GEO) repository number under accession: GSE140203, and the sample code for this example is GSM4156599. Other datasets are available from the corresponding numbers given in the paper.
 
