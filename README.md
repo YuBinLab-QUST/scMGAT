@@ -6,10 +6,9 @@ scMGAT: Improving single-cell multi-omics data analysis based on graph attention
 
 
 ## Related environment installation of scGMAT
----
 
-Please install the requirements (listed in environment.yaml). We're using Anaconda3 to install the environment:
 
+- Please install the requirements (listed in environment.yaml). We're using Anaconda3 to install the environment:
 conda create --name scMGAT python = 3.6
 conda activate scMGAT
 conda create -f environment.yaml
