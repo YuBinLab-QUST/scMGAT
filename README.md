@@ -3,16 +3,31 @@
 scMGAT: Improving single-cell multi-omics data analysis based on graph attention networks
 
 
-## scGMAI uses the following dependencies:
 
+
+## Related environment installation of scGMAT
+---
+
+Please install the requirements (listed in environment.yaml). We're using Anaconda3 to install the environment:
+```
+conda create --name scMGAT
+conda activate scMGAT
+conda create -f environment.yaml
+ 
 - `python = 3.6`
-- `numpy = 1.19.5`
-- `pandas = 1.1.5`
-- `torch = 1.8.1`
-- `dgl = 0.7.1`
-- `tqdm = 4.50.0`
-- `scikit-learn = 0.24.0`
-- `matplotlib = 3.3.2`
+pip install numpy == 1.19.5
+pip install pandas == 1.1.5
+pip install dgl == 0.7.1
+pip install tqdm == 4.50.0
+pip install scikit-learn == 0.24.0
+pip install matplotlib == 3.3.2
+pip install torch == 1.8.1
+pip install torch-geometric == 2.0.2 
+pip install torch-cluster == 1.5.9 (https://pytorch-geometric.com/whl/)
+pip install torch-scatter == 2.0.6 (https://pytorch-geometric.com/whl/)
+pip install torch-sparse == 0.6.10 (https://pytorch-geometric.com/whl/)
+pip install torch-spline-conv == 1.2.1 (https://pytorch-geometric.com/whl/)
+```
 
 
 ## Guiding Principles:
